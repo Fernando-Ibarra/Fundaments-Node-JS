@@ -20,6 +20,6 @@ function eliminar(ruta, callback) {
     fs.unlink(ruta, callback)
 }
 
-//escribir(__dirname + '/archivo1.txt', 'Soy un archivo nuevo', console.log);
-//leer(__dirname + '/archivo1.txt', console.log);
+escribir(__dirname + '/archivo1.txt', 'Soy un archivo nuevo', console.log);
+leer(__dirname + '/archivo1.txt', console.log);
 eliminar(__dirname + '/archivo1.txt', console.log);
